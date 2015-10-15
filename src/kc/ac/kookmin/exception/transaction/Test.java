@@ -23,10 +23,8 @@ class Bank {
 			cancelB();
 			cancelA();
 			}
-		finally{
-			System.out.println("잔여 금액 : " + balance); // 에러 발생시 잔여금액은 처음 금액과 같게 하고 싶다.
-		}
 		
+			System.out.println("잔여 금액 : " + balance); // 에러 발생시 잔여금액은 처음 금액과 같게 하고 싶다.
 	}
 	
 	public void tradeWithA () throws Exception{
